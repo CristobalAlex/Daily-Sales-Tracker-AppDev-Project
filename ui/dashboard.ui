@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>459</width>
+    <height>487</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:rgb(158, 202, 225);
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="productBtn">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>130</y>
+      <width>111</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(66, 146, 198);
+border-radius:20px;
+color:rgb(251, 243, 242);
+font: 75 10pt &quot;Eras Bold ITC&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Products</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="salesreportBtn">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>230</y>
+      <width>111</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(66, 146, 198);
+border-radius:20px;
+color:rgb(251, 243, 242);
+font: 75 10pt &quot;Eras Bold ITC&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Sales Report</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="makeorderBtn">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>130</y>
+      <width>111</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(66, 146, 198);
+border-radius:20px;
+color:rgb(251, 243, 242);
+font: 75 10pt &quot;Eras Bold ITC&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Make Oder</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="storeBtn">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>230</y>
+      <width>111</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(66, 146, 198);
+border-radius:20px;
+color:rgb(251, 243, 242);
+font: 75 10pt &quot;Eras Bold ITC&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Store</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>90</y>
+      <width>261</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(0, 0, 75);
+font: 75 12pt &quot;Eras Bold ITC&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Welcome to Your Sales Tracker</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="choices">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>40</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(33, 113, 181);
+color:rgb(251, 243, 242);
+font: 75 10pt &quot;Eras Bold ITC&quot;;
+border: 0.5px solid #1C768F;
+border-radius: 8px;</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Dashboard</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Account</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
